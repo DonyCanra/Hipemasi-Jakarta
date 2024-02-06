@@ -1,0 +1,25 @@
+.event .box {
+  margin-bottom: 30px;
+  margin-left: 2px;
+}
+.event .text {
+  padding: 0 30px;
+}
+.event .images {
+  width: 320px;
+  height: 220px;
+}
+.event img {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+}
+.event h1 {
+  font-size: 22px;
+}
+@media screen and (max-width: 768px) {
+  .event img,
+  .event .images {
+    height: 350px;
+  }
+}
